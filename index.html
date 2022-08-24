@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+
+<html>
+  app.use(express.json())
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="  IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+    </head>
+    <body class="p-5 md:p-10 text-gray-800">
+        <!-- Home -->
+        <section class="bg-purple-100 rounded-2xl p-5 mb-10">
+          <div class="container mx-auto">
+            <div class="flex">
+              <a class="text-3xl font-bold pr-5 border-r mr-5 border-purple-300" href="index.html">SANJAY AADHITH V<BR> personal blog</a>
+              <div class="my-auto">
+                <button class="lg:hidden" onclick="menuClick()">
+                  <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24"
+                    stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" />
+                  </svg>
+                </button>
+                <ul class="hidden lg:flex font-bold text-gray-600">
+                  
+                  </li>
+                  <li class="pr-5"><a class="px-3 py-2 border border-purple-100 hover:border-purple-300 rounded"
+                      href="#SKILLS">SKILLS</a>
+                  </li>
+                  <li class="pr-5"><a class="px-3 py-2 border border-purple-100 hover:border-purple-300 rounded"
+                      href="#PROJECTS">PROJECTS</a>
+                  </li>
+                  <li class="pr-5"><a class="px-3 py-2 border border-purple-100 hover:border-purple-300 rounded"
+                      href="#INTERNSHIPS">INTERNSHIPS</a>
+                  </li>
+                  <li class="pr-5"><a class="px-3 py-2 border border-purple-100 hover:border-purple-300 rounded"
+                      href="#ACTIVITIES">ACTIVITIES</a>
+                  </li>
+                  <li class="pr-5"><a class="px-3 py-2 border border-purple-100 hover:border-purple-300 rounded"
+                    href="#CONTACT">CONTACT</a>
+                </ul>
+              </div>
+              <button type="button" class="flex ml-auto text-medium font-bold bg-red-500 text-white px-3 py-2 rounded" id="give" onclick="quote()">
+                <span class="pr-1 hidden lg:block">
+                   Quote I Follow
+                </span>
+               
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                    d="M7 8h10M7 12h4m1 8l-4-4H5a2 2 0 01-2-2V6a2 2 0 012-2h14a2 2 0 012 2v8a2 2 0 01-2 2h-3l-4 4z" />
+                </svg></a>
+            </div>
+          </button>
+            <div class="hidden" id="mobileMenu">
+              <ul class="lg:hidden font-bold text-gray-600">
+                <li class="mt-1"><a class="py-2" href="#SKILLS">SKILLS</a>
+                </li>
+                <li class="mt-1"><a class="py-2" href="#PROJECTS">PROJECTS</a>
+                </li>
+                <li class="mt-1"><a class="py-2" href="#INTERNSHIPS">INTERNSHIPS</a>
+                </li>
+                <li class="mt-1"><a class="py-2" href="#ACTIVITIES">ACTIVITIES</a>
+                </li>
+                <li class="mt-1"><a class="py-2" href="#CONTACT">CONTACT</a>
+                </li>
+                
+              </ul>
+            </div>
+            <div class="flex py-12 lg:py-36">
+            <div class="w-full lg:w-1/2">
+                <h2 class="text-center lg:text-left text-1xl lg:text-7xl font-bold  lg:font-semibold">ALL ABOUT MY STUFFS</h2>
+                <div class="flex py-10  ml-0  justify-center lg:justify-start"  >
+                  <a href="" class="bg-white ml-0 rounded P-2 ">R E S U M E </a>
+                </div>
+            </div>
+           
+            <div class="w-1/2 hidden lg:block ">
+                <img src="./assets/hero2.svg">
+
+            </div>
+            
+            </div>
+            <div class="flex justify-center">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M19 13l-7 7-7-7m14-8l-7 7-7-7" />
+              </svg>
+             <span> scroll down </span>
+           </div>
+        </section>
+        <section class="bg-green-100 rounded-2xl p-5 mb-10">
+          <div class="container mx-auto">
+          <h2 class="flex justify-center"> CAREER OBJECTIVE </h2>
+          <div class="p-10">
+            <p class="flex justify-center">I am seeking a role in a company where I can contribute my ideas and  be mentored towards a successful career.</p>
+          </div>
+      </div>
+          <script src="./main.js"></script>
+          
+        </section>
+        <section class="bg-yellow-100 rounded-2xl p-5 mb-10"> 
+          <h2 class="p-2 flex justify-center rounded-full "  id="SKILLS"> SKILLS </h2>
+            <div class="container mx-auto">
+             <div class="flex ">
+                <div class="flex  w-1/2 p-10">
+                         <div class="bg-white p-10 mx-auto border-8 border-yellow-500 shadow-2xl rounded-3xl ">    
+                            <h2 class=" font-bold">TECHNICAL SKILLS      </h2>
+                            <ul>
+                                <br>
+                                <li class="p-2">C PROGRAMING</li>
+                                <LI class="p-2">JAVASCRIPT DOM </LI>
+                                <LI class="p-2">HTML,CSS,TAILWIND</LI>
+                                <LI class="p-2">REACT</LI>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="flex  w-1/2 p-10">
+                        <div class="bg-white p-10 mx-auto border-8 border-yellow-500 shadow-2xl rounded-3xl ">
+                            <h2 class=" font-bold">AREA OF INTERST </h2>
+                            <ul>
+                                <br>
+                                <li class="p-2">C PROGRAMING</li>
+                                <LI class="p-2">FRONTEND DEVELOPMENT</LI>
+                                <LI class="p-2">GRAPHIC DESIGNING</LI>
+                            </ul>
+                        </div>    
+
+                    </div>
+                </div>
+            </div>
+            </section>
+            <section class="bg-gray-200 rounded-2xl p-5 mb-10">
+                <div>
+                   <div class="flex justify-center">
+                       <h2 class="font-bold " id="PROJECTS">PROJECTS</h2>
+                   </div>
+                   <div class="bg-white rounded shadow-2xl mt-10 p-10 w-1/2">
+                        <h3> SENSITIZING TOY</h3>
+                        <p>
+                            <B>Description:</B> This toy was  designed for children to get knowledge about good and bad touch. In this ,we had  interfaced electrodes without using Sensor. It also teaches children how to approach others.Here the Transistor serves as the sensing module.
+                        </p>
+                   </div>
+            
+                   <div class="bg-white rounded shadow-2xl  mt-10 p-10 ml-auto w-1/2 ">
+                        <h3> SAFE SAFARI
+                        </h3>
+                        <p>
+                            <B>Description:</B>  Website was developed to book their seats and provide peaceful travel to the passenger. After booking tickets a separate qr code will be generated, which consist of passenger details. By scanning the code they will be allowed into the bus. The QR code also consists the details of the luggage.
+                        </p>
+                   </div>
+                   <div class="bg-gray-400 rounded-2xl mt-5 p-5">
+                        
+                        <h2 class="flex justify-center text-white  "> MINI PROJECTS ON WEB DEVELOPMENT</h2>
+                        <br><br>
+                        <div class="flex ">
+                            <div class="w-1/2 ">
+                            <a class="ml-16 bg-gray-300 rounded p-2" href="https://sanjutodolist.herokuapp.com/" target="_blank"> To do list </a>
+                            </div>
+                        
+                        <div class="w-1/2 ">
+                            <a class="ml-96 bg-gray-300 rounded p-2 " href="" >Personal blog</a>
+                        </div>
+                    </div>
+                </div>
+            
+          
+          </section>
+          <section class="bg-red-200 rounded-2xl p-5 mb-10">
+          <div>
+            <h2 class="flex justify-center text-white font-bold" id="INTERNSHIPS">INTERNSHIPS</h2>
+          </div>
+          <br><br>
+          <div class="flex grid-cols-1 lg:grid-cols-3 " >
+      <div class=" p-5 w-1/3">
+      <p class="p-2">Company Name :  INITIATE</p><br>
+      <p class="p-2">Responsibility :   Graphic Designer</p><br>
+      <p class="p-2">Duration  :          4 weeks</p><br>
+      <br><br>
+      </div>
+<div class="p-5 w-1/3">
+      <p class="p-2">Company Name  : Intern studio</p><br>
+      <p class="p-2">Learnt  :              Ethical Hacking</p><br>
+      <p class="p-2">Duration   :          5 weeks</p><br>
+      <br><br>
+      </div>
+      <div class="p-5 w-1/3">
+
+      <p class="p-2">Company Name :  Elite Techno Group</p><br>
+      <p class="p-2">Learnt :               Electrical Vehicle</p><br>
+      <p class="p-2">Duration :           4 weeks</p><br>
+      </div>
+            
+          </div>
+          </section>
+          <section class="bg-gradient-to-r from-gray-100 to-blue-400 rounded-2xl p-5 mb-10">
+          <div>
+            <h3 class="flex justify-center" id="ACTIVITIES">EXTRA-CRICULAR ACTIVITIES</h3><br><br>
+          </div>
+          <div class="bg-gray-200 rounded-2xl p-2">
+            <h2 class="p-2 font-bold rounded-full">ONLINE COURSE </h2>
+           <p class="bg-gray-50 p-1 rounded">Coursera-"crash course on Python" <b>Duration: </b> 4 weeks </p> <br>
+   
+            <p class="bg-white p-1 rounded">Coursera -"C Fundamentals"  <b>Duration:</b> 4 weeks</p><br>
+   
+            <p class="bg-white p-1 rounded">Udemy -"Web development using javascript" <b>Duration:</b> 72 hours</p>
+          </div>
+          
+          <div class="bg-gray-200 rounded-2xl p-3 mt-4">
+            <h2 class="p-2 font-bold rounded-full">PAPER PRESENTATION  </h2>
+           <p class="bg-gray-50 p-1 rounded">Participated in "ICLTSET\'21" and presented our paper on "IOT based oil leakage detection using atonomous underwater vehicle" in 2020. </p> <br>
+          </div>
+           
+          <div class="bg-gray-200 rounded-2xl p-3 mt-4">
+            <h2 class="p-2 font-bold rounded-full">PROJECTS PRESENTATION  </h2>
+           <p class="bg-gray-50 p-1 rounded">Secured among top 10 in EnCode: Invent For Life by UDGAM, IIT Guwahati and presented our project on "Safe safari" in 2020.</p> <br>
+          </div>
+          <div class="bg-gray-200 rounded-2xl p-3 mt-4">
+            <h2 class="p-2 font-bold rounded-full">HACKATHON  </h2>
+           <p class="bg-gray-50 p-1 rounded">Participated in VIT Hackathon and presented our project on "Evaluation of Education" in 2020.</p> <br>
+          </div>
+        </section>
+        <section class="bg-gradient-to-r from-pink-300 to-pink-500 rounded-2xl p-5 mb-10">
+          <div class="w-1/2 mr-auto ">
+      
+                <div class="bg-pink-500 p-16 rounded-3xl shadow-inner text-white">
+                  <h2 class="shadow-2xl p-2">PERONAL SKILLS </h2>
+                <ul>
+                  <br>
+                  <li class="p-2">Organized</li>
+                <LI class="p-2">Time management</LI>
+                  <LI class="p-2">Team player</LI>
+                  <LI class="p-2">flexibility</LI>
+                </ul>
+                </div>
+            </div>
+            
+          
+          <div class="w-1/2  ml-auto">
+            <div class="bg-pink-200 p-10 rounded-3xl shadow-2xl"><h2 class="shadow-2xl p-2"> HOBBIES </h2>
+              <ul>
+                <br>
+                <li class="p-2">Cycling</li>
+               <LI class="p-2">Reading Books</LI>
+                <LI class="p-2">Edithing (photo & video)</LI>
+     
+              </ul>
+            </div>
+            
+          </div>
+         
+        </section>
+
+        <section class="bg-gradient-to-r from-purple-400 to-red-500 rounded-2xl p-16 " >
+        <div class="flex " id="CONTACT">
+            <div>
+                <H1 class="flex ml-auto p-2 font-extrabold">CONTACT &nbsp;</H1><br><br>
+            </div>
+                <div>
+                  
+                  <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M13 5l7 7-7 7M5 5l7 7-7 7" />
+                  </svg>
+                </div>
+          <div class="flex grid-cols-8 gap-24">
+            <a class="p-2 shadow-2xl" href="" target="_blank  "><img src="./assets/fb.svg"></a>
+            <a class="p-2" href="https://www.instagram.com/_sanjay_aadhith_/" target="_blank"><img src="./assets/insta.svg"></a>
+            <a class="p-2 shadow-2xl" href="https://www.linkedin.com/in/sanjay-aadhith-3ba0751b9/" target="_blank"><img src="./assets/linkdn.svg"></a>
+            <a class="p-2" href="mailto:sanjayaadhith007@gmail.com" target="_blank"><img src="./assets/email.svg"></a>
+            <a class="p-2 shadow-2xl" href="tel:+917339337512" target="_blank"><img src="./assets/phone.svg"></a>
+            <a class="p-2" href="" target="_blank"><img src="./assets/whatsapp.svg"></a>
+            <a class="p-2 shadow-2xl" href="" target="_blank"><img src="./assets/github.svg"></a>
+          </div>
+      </div>
+      </section>
+
+
+
+         <script src="./main.js"></script>
+            
+     </body>   
+</html>

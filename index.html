@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 
 <html>
-
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="  IE=edge">
@@ -9,13 +8,17 @@
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+        <link
+  rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/1.9.2/tailwind.min.css"
+/>
     </head>
     <body class="p-5 md:p-10 text-gray-800">
         <!-- Home -->
-        <section class="bg-purple-100 rounded-2xl p-5 mb-10">
+        <section class="bg-white rounded-2xl p-5 mb-10">
           <div class="container mx-auto">
             <div class="flex">
-              <a class="text-3xl font-bold pr-5 border-r mr-5 border-purple-300" href="index.html">SANJAY AADHITH V<BR> personal blog</a>
+              <a class="text-3xl font-bold pr-5 border-r mr-5 border-purple-300" href="index.html">SANJAY AADHITH V<BR><h6 class="font-thin">personal blog</h6> </a>
               <div class="my-auto">
                 <button class="lg:hidden" onclick="menuClick()">
                   <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24"
@@ -44,7 +47,7 @@
               </div>
               <button type="button" class="flex ml-auto text-medium font-bold bg-red-500 text-white px-3 py-2 rounded" id="give" onclick="quote()">
                 <span class="pr-1 hidden lg:block">
-                   Quote I Follow
+                   Quote I Follow <img class="hidden" src="./assets/quote1.jpg">
                 </span>
                
                 <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -55,29 +58,29 @@
           </button>
             <div class="hidden" id="mobileMenu">
               <ul class="lg:hidden font-bold text-gray-600">
-                <li class="mt-1"><a class="py-2" href="#SKILLS">SKILLS</a>
+                <li class="mt-1"><a class=" shadow" href="#SKILLS">SKILLS</a>
                 </li>
-                <li class="mt-1"><a class="py-2" href="#PROJECTS">PROJECTS</a>
+                <li class="mt-1"><a class=" shadow" href="#PROJECTS">PROJECTS</a>
                 </li>
-                <li class="mt-1"><a class="py-2" href="#INTERNSHIPS">INTERNSHIPS</a>
+                <li class="mt-1"><a class=" shadow" href="#INTERNSHIPS">INTERNSHIPS</a>
                 </li>
-                <li class="mt-1"><a class="py-2" href="#ACTIVITIES">ACTIVITIES</a>
+                <li class="mt-1"><a class=" shadow" href="#ACTIVITIES">ACTIVITIES</a>
                 </li>
-                <li class="mt-1"><a class="py-2" href="#CONTACT">CONTACT</a>
+                <li class="mt-1"><a class=" shadow" href="#CONTACT">CONTACT</a>
                 </li>
                 
               </ul>
             </div>
             <div class="flex py-12 lg:py-36">
             <div class="w-full lg:w-1/2">
-                <h2 class="text-center lg:text-left text-1xl lg:text-7xl font-bold  lg:font-semibold">ALL ABOUT MY STUFFS</h2>
+                <h2 class="text-center lg:text-left text-1xl lg:text-7xl font-bold  lg:font-thin">ALL ABOUT MY STUFFS</h2>
                 <div class="flex py-10  ml-0  justify-center lg:justify-start"  >
-                  <a href="" class="bg-white ml-0 rounded P-2 ">R E S U M E </a>
+                  <a href="" class="bg-gray-200 ml-0 rounded P-5 shadow-2xl ">R E S U M E </a>
                 </div>
             </div>
            
             <div class="w-1/2 hidden lg:block ">
-                <img src="./hero2.svg">
+                <img src="./illu2.jpg">
 
             </div>
             
@@ -91,19 +94,19 @@
         </section>
         <section class="bg-green-100 rounded-2xl p-5 mb-10">
           <div class="container mx-auto">
-          <h2 class="flex justify-center"> CAREER OBJECTIVE </h2>
+          <h2 class="flex p-2 sm:text-left  justify-center"> CAREER OBJECTIVE </h2>
           <div class="p-10">
-            <p class="flex justify-center">I am seeking a role in a company where I can contribute my ideas and  be mentored towards a successful career.</p>
+            <p class="flex sm:w-full lg:justify-center">I am seeking a role in a company where I can contribute my ideas and  be mentored towards a successful career.</p>
           </div>
       </div>
           <script src="./main.js"></script>
           
         </section>
-        <section class="bg-yellow-100 rounded-2xl p-5 mb-10"> 
+        <section class="bg-yellow-100 rounded-2xl lg:{p-5 mb-10}"> 
           <h2 class="p-2 flex justify-center rounded-full "  id="SKILLS"> SKILLS </h2>
             <div class="container mx-auto">
-             <div class="flex ">
-                <div class="flex  w-1/2 p-10">
+             <div class="lg:flex ">
+                <div class="lg:flex  lg:w-1/2 p-10">
                          <div class="bg-white p-10 mx-auto border-8 border-yellow-500 shadow-2xl rounded-3xl ">    
                             <h2 class=" font-bold">TECHNICAL SKILLS      </h2>
                             <ul>
@@ -115,7 +118,7 @@
                             </ul>
                         </div>
                     </div>
-                    <div class="flex  w-1/2 p-10">
+                    <div class="lg:flex lg:w-1/2 p-10">
                         <div class="bg-white p-10 mx-auto border-8 border-yellow-500 shadow-2xl rounded-3xl ">
                             <h2 class=" font-bold">AREA OF INTERST </h2>
                             <ul>
@@ -130,36 +133,38 @@
                 </div>
             </div>
             </section>
-            <section class="bg-gray-200 rounded-2xl p-5 mb-10">
+            <section class="bg-gray-200 rounded-2xl p-5 mt-5 mb-10">
                 <div>
                    <div class="flex justify-center">
-                       <h2 class="font-bold " id="PROJECTS">PROJECTS</h2>
+                       <h2 class="font-bold p-2" id="PROJECTS">PROJECTS</h2>
                    </div>
-                   <div class="bg-white rounded shadow-2xl mt-10 p-10 w-1/2">
+                   <div class="bg-white rounded shadow-2xl  lg:mt-10 lg:p-10 lg:w-1/2">
                         <h3> SENSITIZING TOY</h3>
-                        <p>
+                        <p class="p-3">
+                          <div >
                             <B>Description:</B> This toy was  designed for children to get knowledge about good and bad touch. In this ,we had  interfaced electrodes without using Sensor. It also teaches children how to approach others.Here the Transistor serves as the sensing module.
-                        </p>
+                            </div>
+                          </p>
                    </div>
             
-                   <div class="bg-white rounded shadow-2xl  mt-10 p-10 ml-auto w-1/2 ">
+                   <div class="bg-white rounded shadow-2xl mt-10 lg:mt-10 lg:p-10 lg:ml-auto lg:w-1/2 ">
                         <h3> SAFE SAFARI
                         </h3>
-                        <p>
+                        <p class="p-3">
                             <B>Description:</B>  Website was developed to book their seats and provide peaceful travel to the passenger. After booking tickets a separate qr code will be generated, which consist of passenger details. By scanning the code they will be allowed into the bus. The QR code also consists the details of the luggage.
                         </p>
                    </div>
                    <div class="bg-gray-400 rounded-2xl mt-5 p-5">
                         
-                        <h2 class="flex justify-center text-white  "> MINI PROJECTS ON WEB DEVELOPMENT</h2>
+                        <h2 class=" lg:flex lg:justify-center text-white  "> MINI PROJECTS ON WEB DEVELOPMENT</h2>
                         <br><br>
-                        <div class="flex ">
-                            <div class="w-1/2 ">
-                            <a class="ml-16 bg-gray-300 rounded p-2" href="https://sanjutodolist.herokuapp.com/" target="_blank"> To do list </a>
+                        <div class="lg:flex ">
+                            <div class="p-10 lg:w-1/2 ">
+                            <a class=" lg:flex lg:justify-center  bg-gray-300 rounded p-2  transform hover:bg-gray-500  " href="https://sanjutodolist.herokuapp.com/" target="_blank"> To do list </a>
                             </div>
                         
-                        <div class="w-1/2 ">
-                            <a class="ml-96 bg-gray-300 rounded p-2 " href="" >Personal blog</a>
+                        <div class="p-10 lg:w-1/2 ">
+                            <a class="lg:flex lg:justify-center  bg-gray-300 rounded p-2 transform hover:bg-gray-500  " href="" >Personal blog</a>
                         </div>
                     </div>
                 </div>
@@ -171,24 +176,24 @@
             <h2 class="flex justify-center text-white font-bold" id="INTERNSHIPS">INTERNSHIPS</h2>
           </div>
           <br><br>
-          <div class="flex grid-cols-1 lg:grid-cols-3 " >
-      <div class=" p-5 w-1/3">
-      <p class="p-2">Company Name :  INITIATE</p><br>
-      <p class="p-2">Responsibility :   Graphic Designer</p><br>
-      <p class="p-2">Duration  :          4 weeks</p><br>
+          <div class="lg:flex sm:grid-cols-1 lg:grid-cols-3 lg:mx-auto " >
+      <div class=" p-5 lg:w-1/3 p-2">
+      <p class="p-2 shadow-2xl">Company Name :  INITIATE</p><br>
+      <p class="p-2 shadow-2xl">Responsibility :   Graphic Designer</p><br>
+      <p class="p-2 shadow-2xl">Duration  :          4 weeks</p><br>
       <br><br>
       </div>
-<div class="p-5 w-1/3">
-      <p class="p-2">Company Name  : Intern studio</p><br>
-      <p class="p-2">Learnt  :              Ethical Hacking</p><br>
-      <p class="p-2">Duration   :          5 weeks</p><br>
+<div class="p-5 lg:w-1/3 p-2">
+      <p class="p-2 shadow-2xl">Company Name  : Intern studio</p><br>
+      <p class="p-2 shadow-2xl">Learnt  :              Ethical Hacking</p><br>
+      <p class="p-2 shadow-2xl">Duration   :          5 weeks</p><br>
       <br><br>
       </div>
-      <div class="p-5 w-1/3">
+      <div class="p-5 lg:w-1/3 p-2">
 
-      <p class="p-2">Company Name :  Elite Techno Group</p><br>
-      <p class="p-2">Learnt :               Electrical Vehicle</p><br>
-      <p class="p-2">Duration :           4 weeks</p><br>
+      <p class="p-2 shadow-2xl">Company Name :  Elite Techno Group</p><br>
+      <p class="p-2 shadow-2xl">Learnt :               Electrical Vehicle</p><br>
+      <p class="p-2 shadow-2xl">Duration :           4 weeks</p><br>
       </div>
             
           </div>
@@ -223,7 +228,7 @@
         <section class="bg-gradient-to-r from-pink-300 to-pink-500 rounded-2xl p-5 mb-10">
           <div class="w-1/2 mr-auto ">
       
-                <div class="bg-pink-500 p-16 rounded-3xl shadow-inner text-white">
+                <div class="bg-pink-500 sm:p-7 lg:p-16 rounded-3xl shadow-inner text-white">
                   <h2 class="shadow-2xl p-2">PERONAL SKILLS </h2>
                 <ul>
                   <br>
@@ -237,12 +242,12 @@
             
           
           <div class="w-1/2  ml-auto">
-            <div class="bg-pink-200 p-10 rounded-3xl shadow-2xl"><h2 class="shadow-2xl p-2"> HOBBIES </h2>
+            <div class="bg-pink-200 sm:p-5 lg:p-10 rounded-3xl shadow-2xl"><h2 class="shadow-2xl p-2"> HOBBIES </h2>
               <ul>
                 <br>
                 <li class="p-2">Cycling</li>
                <LI class="p-2">Reading Books</LI>
-                <LI class="p-2">Editing (photo & video)</LI>
+                <LI class="p-2">Edithing (photo & video)</LI>
      
               </ul>
             </div>
@@ -262,14 +267,14 @@
                     <path stroke-linecap="round" stroke-linejoin="round" d="M13 5l7 7-7 7M5 5l7 7-7 7" />
                   </svg>
                 </div>
-          <div class="flex grid-cols-8 gap-24">
-            <a class="p-2 shadow-2xl" href="" target="_blank  "><img src="./fb.svg"></a>
-            <a class="p-2" href="https://www.instagram.com/_sanjay_aadhith_/" target="_blank"><img src="./insta.svg"></a>
-            <a class="p-2 shadow-2xl" href="https://www.linkedin.com/in/sanjay-aadhith-3ba0751b9/" target="_blank"><img src="./linkdn.svg"></a>
-            <a class="p-2" href="mailto:sanjayaadhith007@gmail.com" target="_blank"><img src="./email.svg"></a>
-            <a class="p-2 shadow-2xl" href="tel:+917339337512" target="_blank"><img src="./phone.svg"></a>
-            <a class="p-2" href="" target="_blank"><img src="./whatsapp.svg"></a>
-            <a class="p-2 shadow-2xl" href="https://github.com/SanjuAadhii" target="_blank"><img src="./github.svg"></a>
+          <div class="lg:flex lg:grid-cols-8 lg:gap-24">
+            <a class=" p-3 shadow-2xl" href="" target="_blank  "><img src="./fb.svg"></a>
+            <a class=" p-3" href="https://www.instagram.com/_sanjay_aadhith_/" target="_blank"><img src="./insta.svg"></a>
+            <a class=" p-3 shadow-2xl" href="https://www.linkedin.com/in/sanjay-aadhith-3ba0751b9/" target="_blank"><img src="./linkdn.svg"></a>
+            <a class=" p-3" href="mailto:sanjayaadhith007@gmail.com" target="_blank"><img src="./email.svg"></a>
+            <a class=" p-3 shadow-2xl" href="tel:+917339337512" target="_blank"><img src="./phone.svg"></a>
+            <a class=" p-3" href="" target="_blank"><img src="./whatsapp.svg"></a>
+            <a class=" p-3 shadow-2xl" href="" target="_blank"><img src="./github.svg"></a>
           </div>
       </div>
       </section>
